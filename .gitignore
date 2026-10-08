@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+
+# Build / export output
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Metro / caches
+.metro-health-check*
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android generated/local files
+android/.gradle/
+android/local.properties
+android/**/build/
+android/captures/
+android/.cxx/
+
+# Android signing keys
+android/app/debug.keystore
+android/app/*.jks
+android/app/*.keystore
+# iOS generated files, if created
+ios/Pods/
+ios/build/
+ios/*.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
